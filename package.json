@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node hello_world.js",
-    "test": "echo \"No tests yet!\" && exit 0"  
+    "start": "node server.js",
+    "test": "echo \"No tests yet!\" && exit 0"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
